@@ -1,0 +1,344 @@
+.viewPaginaInicial {
+    background: url("../img/banner/bannerSite.png")no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.viewBlog {
+    background: url("../img/banner/backgroungBlog.png")no-repeat center center;
+    background-size: cover;
+    height: 45vh;
+}
+
+.logoBlog {
+    max-width: 400px;
+} 
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4f97bb;
+}
+
+.logo {
+    width: 120px;
+}
+
+.rgba-purple-light,
+.rgba-purple-light::after {
+    background-color: rgba(25, 92, 160, 0.3);
+}
+
+.img-icones {
+    width: 120px !important;
+}
+
+.h5-massagens {
+    color: #5a5a5a;
+}
+
+.centraliza {
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-cupom {
+    background-image: linear-gradient(130deg, #245378, #4f97bb);
+    font-size: 16pt;
+    padding: 20px;
+    color: #fff !important;
+    border-radius: 30px;
+    font-style: italic;
+}
+
+.btn-cupom:hover {
+    background-image: linear-gradient(160deg, #245378, #4f97bb);
+}
+
+.bt-padrao {
+    background-image: linear-gradient(130deg, #245378, #4f97bb);
+    font-size: 12pt;
+    padding: 15px;
+    color: #fff !important;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.bt-padrao:hover {
+    background-image: linear-gradient(160deg, #245378, #4f97bb);
+}
+
+.btn-whatsApp {
+    background-color: #00c075 !important;
+    color: #fff !important;
+}
+
+.btn-whatsApp:hover {
+    background-color: #00aa67 !important;
+}
+
+.background-quemSomos {
+    background: url("../img/background/teste3.png");
+    background-size: cover;
+}
+
+.gmap-area {
+    background-image: url("../img/map.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.gmap {
+    border: 10px solid #f6f5f0;
+    border-radius: 100%;
+    box-shadow: 0 0 3px 3px #e7e4dc;
+    overflow: hidden;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    ;
+    margin: 0 auto;
+}
+
+.card-content {
+    background: #ffffff;
+    border: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+
+.card-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    z-index: 1;
+    width: 100%;
+    height: 350px;
+}
+
+.img-massagista-01 {
+    background-image: url("../img/terapeutass/celso/celsocapa.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+
+.img-massagista-02 {
+    background-image: url("../img/terapeutass/celine/celine_01-min.png");
+    background-size: cover;
+}
+
+.img-massagista-03 {
+    background-image: url("../img/terapeutass/rebeca/rebeca_01-min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-massagista-04 {
+    background-image: url("../img/terapeutass/vitoria/vitoria_01-min.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-massagista-05 {
+    background-image: url("../img/terapeutass/andressa/02.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-massagista-06 {
+    background-image: url("../img/terapeutass/helena/02.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-massagista-07 {
+    background-image: url("../img/terapeutass/nayade/03.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-massagista-08 {
+    background-image: url("../img/terapeutass/mireia/mireia_01-min.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-massagista-09 {
+    background-image: url("../img/terapeutass/manu/01.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-massagista-10 {
+    background-image: url("../img/terapeutass/savio/03.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-massagista-11 {
+    background-image: url("https://docs.google.com/uc?id=1r2lDoEKbHx-NHJgfqz0KhHzBsLzMEZbD");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.item {
+    padding: 0px 5px;
+}
+
+.card-img span {
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    background: #1ABC9C;
+    padding: 6px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transform: translate(-50%, -50%);
+}
+
+.card-img span h4 {
+    font-size: 12px;
+    margin: 0;
+    padding: 10px 5px;
+    line-height: 0;
+}
+
+.card-desc {
+    padding: 1.25rem;
+}
+
+.card-desc h3 {
+    color: #4f97bb;
+    ;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.card-desc p {
+    color: #747373;
+    font-size: 14px;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-card {
+    background-color: #1ABC9C;
+    color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    margin: 0;
+    border: 0;
+    -webkit-border-radius: .125rem;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    color: #fff;
+}
+
+.btn-card:hover {
+    background: orange;
+}
+
+a.btn-card {
+    text-decoration: none;
+    color: #fff;
+}
+
+.img-clubParceiros {
+    width: 150px;
+    float: none;
+    display: block;
+    margin: 0px auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    /* IE */
+}
+
+.img-clubParceiros:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.titulo-parceiros {
+    text-align: center;
+    font-size: 16pt;
+    color: #333;
+}
+
+.background-terapeutas {
+    padding-bottom: 60px;
+    background-image: linear-gradient(129deg, #0eceac, #379acc, #00345a);
+    background-image: -moz-linear-gradient(129deg, #0eceac, #379acc, #00345a);
+    background-image: -o-linear-gradient(129deg, #0eceac, #379acc, #00345a);
+    background-image: -webkit-linear-gradient(129deg, #0eceac, #379acc, #00345a);
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+    font-size: 26px !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #fff !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #3f3f3f !important;
+}
+
+.title-card-blog {
+    color: #4f97bb;
+}
+
+.box-container-blog {
+    background-color: #fff; 
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+}
+
+.subtitulo-blog {
+    font-size: 1.3rem;
+}
+
+#promocaoBlackFriday {
+    background-color: #000000;
+    padding: 0%;;
+}
+
+#promocaoBlackFriday h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20%;;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #245378;
+    }
+}
